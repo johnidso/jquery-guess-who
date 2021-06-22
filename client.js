@@ -26,7 +26,7 @@ function loadImages(){
 
 function namePrompt(){
     $("#generatedName").empty();
-    let random = randomNumber(0,6);
+    let random = randomNumber(0,7);
     let randomPerson = people[random].name;
     $("#generatedName").text(randomPerson);
 }
